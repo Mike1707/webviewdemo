@@ -1,11 +1,11 @@
 {
+  "extends": "tslint-ionic-rules/strict",
   "rules": {
-    "no-duplicate-variable": true,
-    "no-unused-variable": [
-      true
-    ]
+    "no-console": false,
+    "linebreak-style": false,
+    "no-trailing-whitespace": false,
+    "jsdoc-format": false,
+    "no-null-keyword": false
   },
-  "rulesDirectory": [
-    "node_modules/tslint-eslint-rules/dist/rules"
-  ]
+  "defaultSeverity": "warning"
 }
